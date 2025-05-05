@@ -1,0 +1,8 @@
+YouTube Clone with Speed Warning 🚗📹
+
+A modern YouTube clone replicating YouTube's 2025 interface, featuring a responsive video grid, search functionality, and a unique 
+speed monitoring system. The app displays live speeds (0–120 km/h),when the person is dricing, shows an eye-catching warning when speed exceeds 80 km/h, 
+and pauses videos after 3 seconds of overspeeding (if a video is playing).
+
+Built with HTML, CSS (Tailwind), and JavaScript, it uses 
+the YouTube Data API v3 for video data and the HTML5 Audio API for warning sounds.
