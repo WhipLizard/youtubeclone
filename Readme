@@ -1,28 +1,31 @@
-YouTube Clone with Speed Warning 🚗📹
+🚗📹 YouTube Clone with Smart Speed Monitoring
+An interactive YouTube UI replica with intelligent overspeed detection — for safer infotainment on the go.
 
-A modern YouTube clone replicating YouTube's 2025 interface, featuring a responsive video grid, search functionality, and a unique 
-speed monitoring system. The app displays live speeds (0–120 km/h),when the person is driving, shows an eye-catching warning when speed exceeds 80 km/h along with a warning sound 
-and pauses videos after 3 seconds of overspeeding (if a video is playing).
+🔥 What’s Inside?
+Experience a futuristic YouTube interface blended with real-time vehicle speed detection, ensuring safer video playback during driving scenarios.
+Designed with HTML, Tailwind CSS, and JavaScript, powered by the YouTube Data API v3, and enhanced using the HTML5 Audio API.
 
-Built with HTML, CSS (Tailwind), and JavaScript, it uses 
-the YouTube Data API v3 for video data and the HTML5 Audio API for warning sounds.
+🌟 Key Features:
+🎨 Modern UI Replica (2025 Edition)
+Mimics the latest YouTube design with a sticky header, animated collapsible sidebar (Home, Shorts, Subscriptions, Library, History), and a responsive video grid.
 
+📹 Smart Video Playback
+Plays YouTube videos via API (embeddable links) with graceful fallback for non-embeddable content — all in a sleek modal.
 
-Features
+🚀 Real-Time Speed Tracking
+Simulated vehicle speeds from 0–120 km/h, updating every 2 seconds and clearly displayed in a dashboard-style bar.
 
-🎨 YouTube 2025 UI Replica: Fixed header, collapsible sidebar (Home, Shorts, Subscriptions, Library, History), responsive video grid, and modal video player.
+⚠️ Dynamic Overspeed Alerts
+When speed > 80 km/h, a flashing red warning appears alongside a custom alert sound (warning.mp3) to grab attention.
 
-📹 Video Playback: Fetches embeddable videos via YouTube Data API v3, with a fallback link for non-embeddable videos.
+⏸️ Automatic Video Pausing
+If the driver continues overspeeding beyond 10 seconds, any currently playing video is automatically paused — minimizing distractions.
 
-🚀 Live Speed Updates: Capture's driver speeds (0–120 km/h) every 2 seconds, displayed in a status bar.
+📱 Fully Responsive
+Optimized for all devices with smooth sidebar toggles, intuitive layout, and mobile-first interactions.
 
-⚠️ Overspeeding Warning: Bold, red, animated warning when speed > 80 km/h, with a warning sound (warning.mp3).
+🔐 Safe API Key Handling
+Users are prompted for their YouTube Data API key — no hardcoded secrets, promoting secure deployment.
 
-⏸️ Video Pause: Pauses video after 10 seconds of continuous overspeeding (only if playing; no action if no video).
-
-📱 Responsive Design: Mobile-friendly with hamburger menu and hidden sidebar.
-
-🔒 Secure API Key Handling: Prompts for YouTube API key to avoid hardcoding.
-
-
-This system enhances driver safety by reducing distractions, displaying a warning, and pausing videos when the vehicle exceeds 80 km/h
+🛡️ Why It Matters:
+This innovative system prioritizes road safety by gently discouraging video consumption during high-speed driving. It’s perfect for infotainment systems where driver awareness is critical.
