@@ -6,3 +6,23 @@ and pauses videos after 3 seconds of overspeeding (if a video is playing).
 
 Built with HTML, CSS (Tailwind), and JavaScript, it uses 
 the YouTube Data API v3 for video data and the HTML5 Audio API for warning sounds.
+
+
+Features
+
+🎨 YouTube 2025 UI Replica: Fixed header, collapsible sidebar (Home, Shorts, Subscriptions, Library, History), responsive video grid, and modal video player.
+
+📹 Video Playback: Fetches embeddable videos via YouTube Data API v3, with a fallback link for non-embeddable videos.
+
+🚀 Live Speed Updates: Capture's driver speeds (0–120 km/h) every 2 seconds, displayed in a status bar.
+
+⚠️ Overspeeding Warning: Bold, red, animated warning when speed > 80 km/h, with a warning sound (warning.mp3).
+
+⏸️ Video Pause: Pauses video after 10 seconds of continuous overspeeding (only if playing; no action if no video).
+
+📱 Responsive Design: Mobile-friendly with hamburger menu and hidden sidebar.
+
+🔒 Secure API Key Handling: Prompts for YouTube API key to avoid hardcoding.
+
+
+This system enhances driver safety by reducing distractions, displaying a warning, and pausing videos when the vehicle exceeds 80 km/h
