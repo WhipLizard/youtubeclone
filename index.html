@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <ion-icon name="logo-youtube"></ion-icon>
+    <link rel="icon" type="image/png" href="youtube.png">
 </head>
 <body class="bg-gray-50 font-roboto">
     <!-- Header -->
@@ -37,14 +37,14 @@
             <div class="flex items-center space-x-2">
                 <button class="p-2 rounded-full hover:bg-gray-100 hidden md:block"><i class="fas fa-upload text-gray-600"></i></button>
                 <button class="p-2 rounded-full hover:bg-gray-100"><i class="fas fa-bell text-gray-600"></i></button>
-                <img src="https://via.placeholder.com/32" alt="Profile" class="w-8 h-8 rounded-full">
+                <img src="avatar.jpg" alt="Profile" class="w-8 h-8 rounded-full">
             </div>
         </div>
     </header>
 
     <!-- Warning Message -->
      
-    <div id="warning-message" class="hidden top-16 left-1/2 transform -translate-x-1/2 bg-red-600 text-white px-6 py-4 rounded-xl shadow-2xl flex items-center gap-3 z-50 max-w-lg w-11/12 animate-pulse">
+    <div id="warning-message" class="hidden fixed top-16 left-1/2 transform -translate-x-1/2 bg-red-600 text-white px-6 py-4 rounded-xl shadow-2xl flex items-center gap-3 z-50 max-w-lg w-11/12 animate-pulse">
         <i class="fas fa-exclamation-triangle text-2xl"></i>
         <span class="text-lg font-bold">Speeding Alert: Slow down! Exceeding 80 km/h.</span>
         <button id="close-warning" class="ml-auto text-white hover:text-gray-200">
@@ -65,14 +65,15 @@
     <!-- Main Content -->
     <div class="flex mt-2 md:mt-14">
         <!-- Sidebar -->
-        <aside id="sidebar" class="bg-white w-60 top-14 left-0 h-screen shadow-md sidebar-hidden md:sidebar-visible z-10">
+        <aside id="sidebar" class="bg-white w-60 fixed top-14 left-0 h-screen shadow-md hidden md:block z-10">
+
             <nav class="p-2">
                 <ul class="space-y-1">
-                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-gray-100 rounded-lg"><i class="fas fa-home w-6 mr-3"></i> Home</a></li>
-                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-gray-100 rounded-lg"><i class="fas fa-video w-6 mr-3"></i> Shorts</a></li>
-                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-gray-100 rounded-lg"><i class="fas fa-tv w-6 mr-3"></i> Subscriptions</a></li>
-                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-gray-100 rounded-lg"><i class="fas fa-book w-6 mr-3"></i> Library</a></li>
-                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-gray-100 rounded-lg"><i class="fas fa-history w-6 mr-3"></i> History</a></li>
+                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-blue-100 rounded-lg"><i class="fas fa-home w-6 mr-3"></i> Home</a></li>
+                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-blue-100 rounded-lg"><i class="fas fa-video w-6 mr-3"></i> Shorts</a></li>
+                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-blue-100 rounded-lg"><i class="fas fa-tv w-6 mr-3"></i> Subscriptions</a></li>
+                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-blue-100 rounded-lg"><i class="fas fa-book w-6 mr-3"></i> Library</a></li>
+                    <li><a href="#" class="flex items-center p-3 text-gray-700 hover:bg-blue-100 rounded-lg"><i class="fas fa-history w-6 mr-3"></i> History</a></li>
                 </ul>
             </nav>
         </aside>
