@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyD6AgHgBJEPllhu5gIC7EUoqFcLXKzPxSk'; 
+const API_KEY = 'AIzaSyA2QK4UWxRPB3oht6fVbPpkD75y0fhVBrU'; 
 const speedLimit = 80;
 let warningTimeout = null;
 let isVideoPaused = false;
