@@ -1,8 +1,11 @@
 🚗📹 YouTube Clone with Smart Speed Monitoring
 An interactive YouTube UI replica with intelligent overspeed detection — for safer infotainment on the go.
+Please play any video in the my webapp for sometime to see how the warning appears.
+And if the warning continues for 3 secs the video closes..
+
 
 🔥 What’s Inside?
-Experience a futuristic YouTube interface blended with real-time vehicle speed detection, ensuring safer video playback during driving scenarios.
+Experience the YouTube interface blended with real-time vehicle speed detection, ensuring safer video playback during driving scenarios.
 Designed with HTML, Tailwind CSS, and JavaScript, powered by the YouTube Data API v3, and enhanced using the HTML5 Audio API.
 
 🌟 Key Features:
@@ -28,4 +31,5 @@ Optimized for all devices with smooth sidebar toggles, intuitive layout, and mob
 Users are prompted for their YouTube Data API key — no hardcoded secrets, promoting secure deployment.
 
 🛡️ Why It Matters:
-This innovative system prioritizes road safety by gently discouraging video consumption during high-speed driving. It’s perfect for infotainment systems where driver awareness is critical.
+This innovative system prioritizes road safety by gently discouraging video consumption during high-speed driving. 
+It’s perfect for infotainment systems where driver awareness is critical.
