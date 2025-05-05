@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyD6AgHgBJEPllhu5gIC7EUoqFcLXKzPxSk'; // Replace with your YouTube Data API v3 key
+const API_KEY = 'AIzaSyD6AgHgBJEPllhu5gIC7EUoqFcLXKzPxSk'; 
 const speedLimit = 80;
 let warningTimeout = null;
 let isVideoPaused = false;
